@@ -17,11 +17,11 @@ const CartItem = ({ item }) => {
       </div>
       {/* code by arshdeepsingh011 github */}
       <div className="flex flex-col md:w-[65%] w-[90%] gap-5">
-        <p className={`text-gray-700 font-semibold text-xl w-[90%]
-         ${isDarkTheme ? "text-slate-300":""}`}>{item.title}</p>
+        <p className={` font-semibold text-xl w-[90%]
+         ${isDarkTheme ? "text-slate-300":"text-gray-700"}`}>{item.title}</p>
 
-        <p className={`text-gray-600 
-        ${isDarkTheme ? "text-gray-100":""}`}>
+        <p className={`
+        ${isDarkTheme ? "text-gray-300":"text-gray-600 "}`}>
           {item.description.split(" ").slice(0, 15).join(" ") + "..."}
         </p>
 
