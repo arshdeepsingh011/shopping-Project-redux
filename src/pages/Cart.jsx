@@ -38,11 +38,11 @@ const Cart = () => {
             <p className={` mt-5 text-xl font-semibold ${isDarkTheme ? "text-slate-400":"text-slate-700"}`}>Total Items : {cart.length}</p>
           </div>
           <div className="w-full">
-            <p className={`text-gray-600 text-xl font-semibold ${isDarkTheme ? "text-slate-300":""}`}>Total amount 
+            <p className={` text-xl font-semibold ${isDarkTheme ? "text-slate-300":"text-gray-600"}`}>Total amount 
             <span className={` ${isDarkTheme ? "text-gray-300":"text-gray-900"}`}> : ${totalprice}</span></p>
             <button className={`text-white font-semibold px-10 py-3 text-xl bg-green-700 border-2 border-green-700
              hover:bg-white hover:text-green-700 w-[95%] mx-auto transition-colors duration-300
-              rounded-lg mt-4 ${isDarkTheme ? "":""}`}>Checkout Now</button>
+              rounded-lg mt-4`}>Checkout Now</button>
           </div>
         </div>
       </div>)
