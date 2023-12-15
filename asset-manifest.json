@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shopping-Project-redux/static/css/main.970546b2.css",
+    "main.js": "/shopping-Project-redux/static/js/main.5cab158f.js",
+    "static/media/logo.png": "/shopping-Project-redux/static/media/logo.abe38ad162a16fe8cdda.png",
+    "index.html": "/shopping-Project-redux/index.html",
+    "main.970546b2.css.map": "/shopping-Project-redux/static/css/main.970546b2.css.map",
+    "main.5cab158f.js.map": "/shopping-Project-redux/static/js/main.5cab158f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.970546b2.css",
+    "static/js/main.5cab158f.js"
+  ]
+}
